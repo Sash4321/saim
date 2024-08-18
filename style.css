@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 22%;
+    border: 3px solid white;
+     border-radius: 50% ;
+}
+.navbar{
+align-items: center;
+justify-content: center;
+position: sticky;
+    display: flex ;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+display: flex;
+width: 100%;
+ ;
+ position: sticky;
+align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    display: contents;
+    padding: 23px;
+    
+
+}
+.nav-list li a{
+text-decoration: none;
+padding: 20px 30px;
+color: rgb(1, 11, 19);
+}
+.nav-list li a :hover{
+     color: gray;
+}
+body{ background: rgba(0, 0,0 , 0.7) url(https://plus.unsplash.com/premium_photo-1681550090719-5754576792a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1aWxkaW5nfGVufDB8fDB8fHww);
+   background-size: 1200px  600px;
+   background-blend-mode:darke ;
+   background-repeat: no-repeat;
+  
+}
+.firstsection{
+    height: 100vh;
+    
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    justify-content: right;
+flex-direction: column;
+color: rgb(9, 22, 28);
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+width: 70%;
+padding: 0px 0; 
+border: 2px solid white;
+border-radius: 50%;
+display: block;
+margin: auto;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    height: 90%;
+}
+.text-big{
+font-size: 50px;
+
+}
+.text-small{
+font-size: 25px;
+}
+.secright{
+ height: 399x;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(253, 254, 255);
+    background-blend-mode: ;
+    background-size:auto;
+    padding: 90px;
+    
+
+}
+.imgfuild{
+max-width:644px ;
+width: 433px;
+margin: 9px;
+
+}
+.paras{
+    padding: 94px;
+}
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    background-color: rgb(247, 242, 242);
+
+height: 333px;
+}
+.text-center{
+    text-align: center;
+    font-size: 33px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    margin: auto;
+    max-width:200px;
+    width: 100%;
+
+}
+.center{
+    width: 100%;
+    border: 2px solid rgb(18, 18, 23);
+    border-radius: 4px;
+    margin: 20px;
+    padding: ;
+}
+.sumbit{
+    border-radius: 2px ;
+    border-color: black;
+    
+}
